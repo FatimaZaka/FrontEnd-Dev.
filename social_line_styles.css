@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+#outer-box{
+    background: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.235) 70%);
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin:25px auto;
+}
+h1{
+    margin-top: -5px;
+    color:white;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h4{
+    margin-top: -10px;
+    color:yellow;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin-top: -6px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+#github{
+    background-color: rgba(128, 128, 128, 0.235);
+    width:230px;
+    height:30px;
+    margin: 40px auto 20px;
+    border-radius:5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: -5px;
+    line-height: 30px;
+}
+#linkedin{
+    background-color: rgba(128, 128, 128, 0.235);
+    width:230px;
+    height:30px;
+    margin: 40px auto 20px;
+    border-radius:5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+#frontend_mentor{
+    background-color: rgba(128, 128, 128, 0.235);
+    width:230px;
+    height:30px;
+    border-radius:5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 40px auto 20px;
+    line-height: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+}
